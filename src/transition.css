@@ -1,0 +1,44 @@
+.loginbg-slide-fade-enter-active {
+  transition: all 0.3s ease-in;
+}
+
+.loginbg-slide-fade-enter-from{
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.loginbg-slide-fade-title-enter-active {
+  transition: all 0.5s ease-in;
+}
+
+.loginbg-slide-fade-title-enter-from{
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.loginform-slide-fade-enter-active {
+  transition: all 0.3s ease-in;
+}
+
+.loginform-slide-fade-enter-from{
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.loginform-slide-fade-input-enter-active {
+  transition: all 0.5s ease-in;
+}
+
+.loginform-slide-fade-input-enter-from{
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.loginform-slide-fade-btn-enter-active {
+  transition: all 0.8s ease-in;
+}
+
+.loginform-slide-fade-btn-enter-from{
+  transform: translateX(50px);
+  opacity: 0;
+}
