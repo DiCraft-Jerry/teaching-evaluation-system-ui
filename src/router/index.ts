@@ -80,6 +80,16 @@ const routes: RouteRecordRaw[] = [
 			path: 'Operations/Score',
 			name: '成绩管理',
 			component: () => import('../components/Score.vue')
+		},
+		{
+			path: 'Quota/Upload',
+			name: '指标上传',
+			component: () => import('../components/Quota/Upload.vue')
+		},
+		{
+			path: 'Quota/Settings',
+			name: '指标管理',
+			component: () => import('../components/Quota/Settings.vue')
 		}
 
 
